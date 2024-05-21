@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Ehl Julián, varado en la luna 😻</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="div1">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribi tu nombre" required minlength="3">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido:">
+            <label for="mail">Correo:</label>
+            <input type="email" id="mail" name="mail" placeholder="email" required>
+            <label for="pais">País</label>
+            <select name="pais" id="pais" required>
+                <option value="Argentina">Argentina</option>
+                <option value="Afganistán">Afganistán</option>
+                <option value="Argelia">Argelia</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Belice">Belice</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Canada">Canada</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Davos">Davos</option>
+            </select>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="Comentario???" cols="30" rows="6" required></textarea>
+            <label for="motivo">Motivo del contacto: </label>
+            <input type="radio" id="motivo" name="motivo" required><i>Soy fana</i>
+            <input type="radio" id="motivo" name="motivo"><i>Quiero una remera</i>
+            <input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+            <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+            <input type="radio" id="motivo" name="motivo"><i>Varios</i>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    
+</body>
+</html>

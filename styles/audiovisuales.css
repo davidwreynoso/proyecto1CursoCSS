@@ -1,0 +1,17 @@
+.secCentrada {
+    display: flex;
+    flex-direction: row;
+}
+.galeria {
+    margin: 5px;
+    border: 1px solid grey;
+    float: left;
+}
+div.galeria img{
+    height: 350px;
+}
+.descripcion {
+    padding: 7px;
+    text-align: left;
+    font-size: 20px;
+}
